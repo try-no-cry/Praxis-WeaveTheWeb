@@ -34,20 +34,3 @@ body{
     margin-bottom: 1rem;
 }
 
-a{
-    text-decoration:none;
-    color: white;
-}
-ul{
-    color: white;
-   
-}
-.navlist{
-    display: inline;
-    padding: 4rem;
-}
-.navlist a:hover {
-    background-color: #555;
-    padding: 0.5rem;
-    color: white;
-  }
