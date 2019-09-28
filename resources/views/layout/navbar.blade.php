@@ -21,7 +21,7 @@
 <nav class="homepagenav">
 
 <div class="logo">
- <a href="">Inventions</a>
+ <a href="/">Inventions</a>
 </div>
     <div class="navmenu">
         <div class="navcontent1">
