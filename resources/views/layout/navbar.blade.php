@@ -25,7 +25,7 @@
 </div>
     <div class="navmenu">
         <div class="navcontent1">
-            <a class="hlink" href="#home">Home</a>
+            <a class="hlink" href="/">Home</a>
         </div>
         <div class="navcontent2">
             <a class="hlink" href="#news">News</a>
@@ -35,9 +35,9 @@
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="/timeline">Machine Learning</a>
+                            <a href="/timeline1">Machine Learning</a>
                             <a href="/timeline">Artificial Intelligence</a>
-                            <a href="/timeline">Big Data</a>
+                            <a href="/timeline2">Big Data</a>
                         </div>
                 </div>
         

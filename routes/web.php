@@ -43,3 +43,9 @@ Route::post('/uploadArticle','HomeController@uploadArticle')->name('uploadArticl
 Route::get('/timeline', function () {
     return view('timeline');
 });
+Route::get('/timeline1', function () {
+    return view('timline1');
+});
+Route::get('/timeline2', function () {
+    return view('timeline2');
+});
