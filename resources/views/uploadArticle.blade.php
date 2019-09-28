@@ -1,6 +1,7 @@
 @extends('layout.navbar')
 
 @section('content')
+<div class="container">
 
 <form action="{{ route('uploadArticle') }}" method="post" enctype="multipart/form-data">
 
@@ -13,10 +14,10 @@
     <input type="text" name="title" id="title" style="width:80%;" >
     </div>
 
-    <br>
+    
     <div>
     <label for="body">Body:</label>
-    <input type="text" name="body" id="body" style="width:80%; " >
+    <input type="text" name="body" id="body" style="width:80%;" >
     </div>
 
    
@@ -28,5 +29,5 @@
     
     <button type="submit">Submit Article</button>
 </form>
-
+</div>
 @endsection
