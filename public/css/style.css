@@ -5,32 +5,35 @@
    
 }
 body{
-    background: #EEE;
+    background: white;
 }
 
 .container{
     margin: 3rem;
+    
 }
 
-.flex-div{
+.x-div{
     display:flex;
     justify-content: center;
     color: #23374d;
     min-height: 40rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
 }
 
-/* .flex-div h1{
+/* .x-div h1{
     font-size: 6rem;
     text-shadow: 4px 4px 4px #aaa;
 } */
 
-.flex-div:nth-child(odd){
-    background: #e5e5e5;
+.x-div:nth-child(odd){
+    background: white;
     margin-bottom: 1rem;
 }
 
-.flex-div:nth-child(even){
-    background: #D2D2D2;
+.x-div:nth-child(even){
+    background:#EEE;
     margin-bottom: 1rem;
 }
 
@@ -38,8 +41,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 3rem 5px 0;
-    align-items: baseline;
-}
+    }
 .hero h1{
      color: darkblue;
      font-size: 4rem;
