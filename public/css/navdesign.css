@@ -4,11 +4,12 @@
     display: flex;
     align-items: center;
     height: 60px;
+    box-sizing: border-box;
     
 }
 .logo{
     flex: 1;
-
+    padding: 2rem;
 }
 .navmenu{
     flex: 1;
@@ -49,7 +50,7 @@
   
   /* The dropdown container */
   .dropdown {
-    float: left;
+    float: center;
     overflow: hidden;
     flex: 1;
   }

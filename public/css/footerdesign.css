@@ -4,6 +4,8 @@ footer{
     display: flex;
     align-items: center;
     height: 200px;
+    padding: 4rem;
+    box-sizing: border-box;
 }
 .footcontent1{
     flex: 1;
