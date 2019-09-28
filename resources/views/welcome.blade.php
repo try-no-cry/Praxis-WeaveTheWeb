@@ -24,17 +24,20 @@
 
         <div class="cards">
                 <div class="card">
-                    <img src="hero image.jpg" alt="hero/" >
+                    <img src="images/hero image.jpg" alt="hero" class="card-img">
                     <h3 class="card-head"> Heading 1</h3>
                     <p class="card-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam placeat sapiente natus, minus itaque quae dignissimos, dicta, ab mollitia ipsum saepe tempore veritatis similique obcaecati magnam tempora ea iure vitae.</p>
                 </div>
                 <div class="card">
+                    <img src="images/hero image.jpg" alt="hero" class="card-img">
                     <h3 class="card-head"> Heading 2</h3>
                     <p class="card-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam placeat sapiente natus, minus itaque quae dignissimos, dicta, ab mollitia ipsum saepe tempore veritatis similique obcaecati magnam tempora ea iure vitae.</p>
                 </div><div class="card">
+                      <img src="images/hero image.jpg" alt="hero" class="card-img">
                     <h3 class="card-head"> Heading 3</h3>
                     <p class="card-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam placeat sapiente natus, minus itaque quae dignissimos, dicta, ab mollitia ipsum saepe tempore veritatis similique obcaecati magnam tempora ea iure vitae.</p>
                 </div><div class="card">
+                       <img src="images/hero image.jpg" alt="hero" class="card-img">
                     <h3 class="card-head"> Heading 4</h3>
                     <p class="card-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam placeat sapiente natus, minus itaque quae dignissimos, dicta, ab mollitia ipsum saepe tempore veritatis similique obcaecati magnam tempora ea iure vitae.</p>
                 </div>

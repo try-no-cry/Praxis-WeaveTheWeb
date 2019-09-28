@@ -129,6 +129,11 @@ ul{
     transition: all .2s ease-in-out; 
 }
 
+.card-img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .card-head{
     margin-bottom: 1rem;
 }
