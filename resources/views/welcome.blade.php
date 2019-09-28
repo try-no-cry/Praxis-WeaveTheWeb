@@ -12,7 +12,8 @@
         <div class="heroinfo">
         
             <h1> IT UPDATES </h1>
-            <p> Find all IT related updates<br> at one location <br>Your Fingertips</p>
+            <p> Find all IT related updates<br> at one location  <h3 >Your Fingertips</h3></p>
+            <button> Have A Look! </button>
     
         </div>
    </div>
@@ -20,6 +21,7 @@
     <section  class="x-div" id="latest">
 
         <h1>LATEST</h1>
+
         <div class="cards">
                 <div class="card">
                     <h3 class="card-head"> Heading 1</h3>
