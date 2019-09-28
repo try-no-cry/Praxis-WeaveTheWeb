@@ -33,3 +33,8 @@ Route::get('/uploadArticle', function () {
 
 Route::post('/uploadArticle','HomeController@uploadArticle')->name('uploadArticle');
 
+
+
+Route::get('/timeline', function () {
+    return view('timeline');
+});
