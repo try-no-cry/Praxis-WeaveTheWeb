@@ -2,9 +2,12 @@
     background-color: blue;
     color: white;
     display: flex;
+    align-items: center;
+    height: 60px;
     
 }
 .navcontents{
+    
     color: white;
     display: inline;
 

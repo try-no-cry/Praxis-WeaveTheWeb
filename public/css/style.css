@@ -46,7 +46,8 @@ ul{
     display: inline;
     padding: 4rem;
 }
-li a:hover {
+.navlist a:hover {
     background-color: #555;
+    padding: 0.5rem;
     color: white;
   }
