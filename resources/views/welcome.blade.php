@@ -24,6 +24,7 @@
 
         <div class="cards">
                 <div class="card">
+                    <img src="hero image.jpg" alt="hero/" >
                     <h3 class="card-head"> Heading 1</h3>
                     <p class="card-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam placeat sapiente natus, minus itaque quae dignissimos, dicta, ab mollitia ipsum saepe tempore veritatis similique obcaecati magnam tempora ea iure vitae.</p>
                 </div>
