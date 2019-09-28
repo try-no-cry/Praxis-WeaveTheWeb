@@ -22,10 +22,10 @@
 
    
 
-    <input type="file" name="articleImage" id="">
+    <input type="file" name="articleImage" >
    
 
-    
+    <br>
     
     <button type="submit">Submit Article</button>
 </form>
