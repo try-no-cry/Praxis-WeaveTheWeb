@@ -208,14 +208,14 @@
   <div class="container left">
     <div class="content">
      <h2 style ="color:#FF9F55">BIG DATA</h2>
-     <img src="images/5.jpg" alt="Nature" style= "width:50%">
+     <img src="images/2.jpg" alt="Nature" style= "width:50%">
      <P>Big data refers to a collection of data that cannot be captured, managed, and processed by conventional software tools within a certain time frame.</P>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h2 style ="color:#FF9F55">ARTIFICIAL GENERAL INTELLIGENCE</h2>
-      <img src="images/6.jpg" alt="Nature" style= "width:50%">
+      <img src="images/1.jpg" alt="Nature" style= "width:50%">
       <P>Artificial intelligence is a branch of computer science that attempts to understand the essence of intelligence and produce a new intelligent machine that responds in a manner similar to human intelligence.</P>
     </div>
   </div>
