@@ -176,14 +176,14 @@
   <div class="container left">
     <div class="content">
      <h2 style ="color:#FF9F55">1980–1987</h2 >
-      <img src="images/1.jpg" alt="Nature" style= "width:50%">
+      <img src="https://ngdata-web.s3.us-east-2.amazonaws.com/2018/06/blog-203-1.jpg" alt="Nature" style= "width:50%">
       <p>In 1982, physicist John Hopfield was able to prove that a form of neural network (now called a "Hopfield net") could learn and process information in a completely new way. Around the same time, Geoffrey Hinton and David Rumelhart popularized a method for training neural networks called "backpropagation"</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
      <h2 style ="color:#FF9F55">1987–1993</h2>
-    <img src="images/2.jpg" alt="Nature" style= "width:50%">
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Data-Science-vs.-Big-Data-vs.jpg" alt="Nature" style= "width:50%">
      <P>By 1991, the impressive list of goals penned in 1981 for Japan's Fifth Generation Project had not been met. Indeed, some of them, like "carry on a casual conversation" had not been met by 2010.As with other AI projects, expectations had run much higher than what was actually possible.
 
         Over 300 AI companies had shutdown, gone bankrupt, or been acquired by the end of 1993, effectively ending the first commercial wave of AI.</P>

@@ -21,7 +21,7 @@
 <nav class="homepagenav">
 
 <div class="logo">
- <a href="/">Inventions</a>
+ <a href="/">IT UPDATES</a>
 </div>
     <div class="navmenu">
         <div class="navcontent1">
@@ -30,6 +30,9 @@
         <div class="navcontent2">
             <a class="hlink" href="#news">News</a>
         </div>
+        <div class="navcontent2">
+                <a class="hlink" href="#upcoming">Upcoming</a>
+            </div>
                 <div class="dropdown">
                         <button class="dropbtn">Fields
                         <i class="fa fa-caret-down"></i>

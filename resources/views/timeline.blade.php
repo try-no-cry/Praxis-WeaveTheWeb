@@ -172,7 +172,7 @@
   <div class="container left">
     <div class="content">
      <h2 style ="color:#FF9F55">1980–1987</h2 >
-      <img src="images/1.jpg" alt="Nature" style= "width:50%">
+      <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2019/07/marketing-ai-key-takeaways-you-need-to-know-760x400.png" alt="Nature" style= "width:50%">
       <p>In 1982, physicist John Hopfield was able to prove that a form of neural network (now called a "Hopfield net") could learn and process information in a completely new way. Around the same time, Geoffrey Hinton and David Rumelhart popularized a method for training neural networks called "backpropagation"</p>
     </div>
   </div>

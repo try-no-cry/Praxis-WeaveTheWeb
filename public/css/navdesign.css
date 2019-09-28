@@ -26,14 +26,14 @@
 
 .hlink {
     color: white;
-    padding: 4rem;
+    padding: rem;
     flex: 1;
 }
 
 .navlist {
     flex: 1;
     display: inline;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .navbar {
@@ -139,3 +139,5 @@ ul {
     padding: 0.5rem;
     color: white;
 }
+
+1

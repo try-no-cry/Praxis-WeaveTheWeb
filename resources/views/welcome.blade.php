@@ -12,7 +12,8 @@
         <div class="heroinfo">
         
             <h1> IT UPDATES </h1>
-            <p> Find all IT related updates<br> at one location  <h3 >Your Fingertips</h3> <button> <a href="/uploadArticle" style="color: blue"> Upload Article</a> </button> </p>
+            <p> <br>Find all IT related updates<br> at one location <br><br> <h3>Your Fingertips<br></h3><br> 
+                <button> <a href="/uploadArticle" style="color: blue"> Upload Article</a> </button> </p>
           
     
         </div>
@@ -99,7 +100,7 @@
                 <h3 class="card-head">{{ $a->title }}</h3>
                     <p class="card-desc"> 
                     {{ $a->body }} </p>
-                            <a href="https://interestingengineering.com/15-inventions-that-will-make-your-2019-a-lot-more-interesting" >Learn More
+                            <a href="https://interestingengineering.com/15-inventions-that-will-make-your-2019-a-lot-more-interesting" target="_blank">Learn More
                             </a>
                 </div>
      @endforeach           

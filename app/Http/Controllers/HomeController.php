@@ -19,11 +19,13 @@ class HomeController extends Controller
 
         
      
+        
         $destinationPath ="ArticleImages";
 		$extension = request()->file('articleImage')->getClientOriginalExtension();
                               $filenametostore = 'article'.request()->article_id.mt_rand().'.'.$extension;
 							  $path =  request()->file('articleImage')->storeAs($destinationPath, $filenametostore,'public_uploads');
-        if($extension=="exe"){
+        if($extension!="jpeg" && $extension!="JPEG" && $extension!="jpg" && $extension!="JPG" && $extension!="png" 
+        && $extension!="PNG"        ){
 			return redirect()->back()->withErrors(["Upload in valid formats only.	"]);
 		}							  
         
