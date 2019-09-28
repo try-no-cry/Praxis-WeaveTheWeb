@@ -55,13 +55,14 @@ button{
 }
 
 .x-div:nth-child(odd) .card{
-    background: #5edfff;
+    background: #dcf7fc;
     margin-bottom: 1rem;
 }
 .hero{
     display: flex;
     justify-content: space-around;
     margin: 0 3rem 5px 0;
+    height:80vh;
     }
 
 .hero h1{

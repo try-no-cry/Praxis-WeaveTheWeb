@@ -5,7 +5,7 @@
 
 <div class="container">
 
-   <div class="hero">
+   <div class="hero" >
        <div class="heroimg">
             <img src="images/hero image.jpg" alt="Hero Image" >
         </div>
@@ -100,7 +100,7 @@
                 </div>
 
         </div>
-        
+
     </section>
 </div>
 
