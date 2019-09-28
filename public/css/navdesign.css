@@ -1,0 +1,11 @@
+.homepagenav{
+    background-color: blue;
+    color: white;
+    display: flex;
+    
+}
+.navcontents{
+    color: white;
+    display: inline;
+
+}
