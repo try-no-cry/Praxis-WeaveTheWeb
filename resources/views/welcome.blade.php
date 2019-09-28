@@ -12,7 +12,7 @@
         <div class="heroinfo">
         
             <h1> IT UPDATES </h1>
-            <p> Find all IT related updates<br> at one location  <h3 >Your Fingertips</h3></p>
+            <p> Find all IT related updates<br> at one location  <h3 >Your Fingertips</h3> <button> <a href="/uploadArticle" style="color: blue"> Upload Article</a> </button> </p>
           
     
         </div>
@@ -58,23 +58,28 @@
         <h1>NEWS</h1>
 
         <div class="cards">
-            <a href="https://www.theverge.com/2019/9/27/20885882/how-to-chromebook-save-retrieve-files-chromeos" target="_blank"></a>
                 <div class="card">
                     <img src="images/hero image.jpg" alt="hero" class="card-img">
                     <h3 class="card-head">Chrome OS 101: How to save and retrieve files</h3>
                     <p class="card-desc">
                             About three years ago, I was shopping for a Chromebook to take on a business trip — I wanted something lightweight enough to carry around all day and inexpensive enough that I wouldn’t mind as much when I spilled coffee on the keyboard. I was considering two different models when a sales rep came over to see if I needed help. “You’re aware,” he said, “that these are Chromebooks, right? They only work online; you can’t save any files to the hard drive.”                
+                        <br>
+                            <a href="https://www.theverge.com/2019/9/27/20885882/how-to-chromebook-save-retrieve-files-chromeos" target="_blank">Learn More</a>
+
                         </div>
 
                     
 
-               <a href="https://interestingengineering.com/15-inventions-that-will-make-your-2019-a-lot-more-interesting"  target="_blank"> <div class="card">
+                <div class="card">
                     <img src="images/hero image.jpg" alt="hero" class="card-img">
                     <h3 class="card-head"> Xbox Adaptive Controller</h3>
                     <p class="card-desc"> 
                             The Xbox adaptive controller is here to make the gaming world more inclusive. The Microsoft developed  Xbox Adaptive Controller is here to help those with limited hand and arm mobility play games.                
-                        </div>
-               </a>
+                    <br>
+                    <a href="https://interestingengineering.com/15-inventions-that-will-make-your-2019-a-lot-more-interesting"  target="_blank">Learn More</a>
+
+                </div>
+               
          
 
         </div>

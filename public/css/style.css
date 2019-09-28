@@ -122,7 +122,12 @@ ul{
     
   }
 
-  
+  .cards a{
+      text-decoration: none;
+      color: #13569e;
+      cursor: pointer;
+      font-size: 1.6rem;
+  }
 .card{
     width: 20rem;
     flex-direction: column;
