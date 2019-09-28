@@ -18,3 +18,21 @@ Route::get('/', function () {
 Route::get('timeline', function () {
     return view('timeline');
 });
+
+Route::get('/article', function () {
+    return view('article');
+});
+
+Route::get('/uploadImages', function () {
+    return view('uploadImages');
+});
+
+Route::post('/uploadImages','HomeController@uploadImages')->name('uploadImages');
+
+
+Route::get('/uploadArticle', function () {
+    return view('uploadArticle');
+});
+
+Route::post('/uploadArticle','HomeController@uploadArticle')->name('uploadArticle');
+

@@ -35,9 +35,9 @@
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">ML</a>
-                            <a href="#">AI</a>
-                            <a href="#">Big Data</a>
+                            <a href="{{route('timeline')}}">Machine Learning</a>
+                            <a href="{{route('timeline')}}">Artificial Intelligence</a>
+                            <a href="{{route('timeline')}}">Big Data</a>
                         </div>
                 </div>
         
