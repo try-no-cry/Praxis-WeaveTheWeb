@@ -31,6 +31,8 @@ Route::get('/uploadArticle', function () {
     return view('uploadArticle');
 });
 
+// Route::get('','HomeController@')-name('');
+
 Route::post('/uploadArticle','HomeController@uploadArticle')->name('uploadArticle');
 
 
