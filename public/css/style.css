@@ -12,9 +12,10 @@ body{
     margin: 3rem;
     padding: 1rem;
     /* border: 1px solid rgb(128, 138, 138); */
+    min-height: 90vh;
 }
 
-button{
+button, #butt{
     background: transparent;
     padding: 1rem 0.5rem;
     border: 1px solid blue;
@@ -120,26 +121,20 @@ ul{
       justify-content: center;
     
   }
-  .cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
 
   
 .card{
     width: 20rem;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content: space-evenly;
     margin: 3rem;
-    border: 1px solid ghostwhite;
+    border: 0.4px solid lightseagreen;
     flex-basis: 35%;
     background: #d0f2f3;
     padding: 1rem;
     border-radius: 1.5rem;
     transition: all .2s ease-in-out; 
+    
 }
 
 .card-img{
@@ -149,6 +144,7 @@ ul{
 }
 .card-head{
     margin-bottom: 1rem;
+    align-self:flex-end;
 }
 
 
@@ -164,3 +160,10 @@ ul{
 #bdf6f8
 #5edfff
 #3e64ff */
+
+
+input{
+    margin: 1rem;
+    padding: 1rem;
+
+}

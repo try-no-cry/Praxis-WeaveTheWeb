@@ -25,7 +25,9 @@
         <div class="cards">
                 <div class="card">
                     <img src="images/alzheimer.jpg" alt="hero" class="card-img">
+                    <br>
                     <h3 class="card-head"> Machine learning for comprehensive forecasting of Alzheimer’s Disease progression</h3>
+                <br>
                     <p class="card-desc"> Most approaches to machine learning from electronic health data can only predict a single endpoint. The ability to simultaneously simulate dozens of patient characteristics is a crucial step towards personalized medicine for Alzheimer’s Disease. Here, we use an unsupervised machine learning model called a Conditional Restricted Boltzmann Machine (CRBM) to simulate detailed patient trajectories.</p>
                 </div>
                 <div class="card">
