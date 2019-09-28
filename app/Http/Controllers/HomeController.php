@@ -78,4 +78,10 @@ class HomeController extends Controller
        return redirect()->back()->with('success', 'Article uploaded successfully.');
 
     }
+
+
+    public function timeline(){
+        $article=Article::all();
+        return view('timeline',compact('article'));
+    }
 }
