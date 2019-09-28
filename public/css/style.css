@@ -126,13 +126,20 @@ ul{
     background: whitesmoke;
     padding: 1rem;
     border-radius: 1.5rem;
+    transition: all .2s ease-in-out; 
 }
 
+.card-img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .card-head{
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 
-.card:hover{
-    
+.card:hover { 
+    transform: scale(1.2); 
+    box-shadow: 1rem 1rem 1rem grey;
 }
