@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('timeline', function () {
+    return view('timeline');
+});
 
 Route::get('/article', function () {
     return view('article');
