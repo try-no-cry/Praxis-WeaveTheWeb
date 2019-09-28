@@ -7,6 +7,10 @@
     <title>IT UPDATES</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="http://allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 @yield('content')
