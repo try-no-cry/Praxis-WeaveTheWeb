@@ -1,28 +1,23 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.navbar')
 
-        <title>Laravel</title>
+@section('content')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+<div class="container">
 
-            .full-height {
-                height: 100vh;
-            }
+    <section class="flex-div" id="hero">
+        
+    </section>
+    <section  class="flex-div" id="latest">
+    
+    </section>
+    <section class="flex-div" id="news">
+        
+    </section>
+    <section class="flex-div" id="upcoming">
+    
+    </section>
+</div>
 
             .flex-center {
                 align-items: center;
@@ -98,3 +93,4 @@
         </div>
     </body>
 </html>
+@endsection

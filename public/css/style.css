@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: 
+}
+
+.container{
+    margin: 3rem;
+}
+
+.flex-div:nth-child(odd){
+    background: lightblue;
+    min-height: 40rem;
+    margin-bottom: 1rem;
+}
+
+.flex-div:nth-child(even){
+    background: lightsteelblue;
+    min-height: 40rem;
+    margin-bottom: 1rem;
+}
