@@ -1,0 +1,27 @@
+footer{
+    background-color: #3e64ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    padding: 4rem;
+    box-sizing: border-box;
+}
+.footcontent1{
+    flex: 1;
+}
+.footcontent2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.connectheader{
+    flex: 1;
+}
+.footerul{
+    flex: 1;
+}
+.footerlist{
+    text-decoration-style: none;
+}
