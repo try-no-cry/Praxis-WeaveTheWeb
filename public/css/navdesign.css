@@ -5,6 +5,8 @@
     align-items: center;
     height: 60px;
     box-sizing: border-box;
+    width: 100%;
+    position: static;
     
 }
 .logo{
