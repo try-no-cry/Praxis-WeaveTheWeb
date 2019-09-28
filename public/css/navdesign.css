@@ -15,9 +15,7 @@
     flex: 1;
     display: flex;
 }
-.navmenu a:hover{
-  background: #f9f9f9;
-}
+
 .navcontent1,.navcontent2{
     
     color: white;
