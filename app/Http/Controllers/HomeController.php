@@ -19,7 +19,7 @@ class HomeController extends Controller
 
         
      
-        
+
         $destinationPath ="ArticleImages";
 		$extension = request()->file('articleImage')->getClientOriginalExtension();
                               $filenametostore = 'article'.request()->article_id.mt_rand().'.'.$extension;
@@ -55,6 +55,17 @@ class HomeController extends Controller
        $article->title=request()->title;
        $article->body=request()->body;
 
+       if(request()->file('articleImage')==null){
+
+         
+       $article->imagePath="NULL";
+     
+
+       $article->save();
+   
+   
+          return redirect()->back()->with('success', 'Article uploaded successfully.');
+       }
 
       
 
@@ -72,13 +83,7 @@ class HomeController extends Controller
        
        $article->imagePath=$destinationPath.'/'.$filenametostore;
      
-   
-    //    $image=new Image();
-    //    $image->article_id=request()->article_id;
-    //    $image->imagePath=$destinationPath.'/'.$filenametostore;
-      
-    
-    //    $image->save();
+
     $article->save();
 
 
