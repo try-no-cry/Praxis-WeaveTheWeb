@@ -36,6 +36,8 @@
   position: relative;
   background-color: inherit;
   width: 50%;
+  min-height: 20rem;
+
 }
 
 /* The circles on the timeline */

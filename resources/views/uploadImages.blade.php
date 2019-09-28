@@ -1,7 +1,7 @@
 @extends('layout.navbar')
 
 @section('content')
-
+<div class="container">
 
 <form action="{{ route('uploadImages') }}" method="post" enctype="multipart/form-data">
     @csrf
@@ -10,5 +10,5 @@
     <input type="file" name="articleImage" id="articleImage">
     <button type="submit"> Upload</button>
 </form>
-
+</div>
 @endsection 
