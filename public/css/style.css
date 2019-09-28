@@ -100,6 +100,39 @@ ul{
   .cards{
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
-    width: 40rem;
+      justify-content: center;
+    
   }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+  .card:nth-child(even){
+     
+      background: ghostwhite;
+  }
+
+  
+.card{
+    width: 20rem;
+    flex-direction: column;
+    justify-content: baseline;
+    margin: 3rem;
+    border: 1px solid ghostwhite;
+    flex-basis: 35%;
+    background: whitesmoke;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.card-head{
+    margin: 1rem 0;
+}
+
+
+.card:hover{
+    
+}
