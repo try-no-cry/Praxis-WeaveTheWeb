@@ -31,13 +31,13 @@
             <a class="hlink" href="#news">News</a>
         </div>
                 <div class="dropdown">
-                        <button class="dropbtn">Dropdown
+                        <button class="dropbtn">Fields
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="#">ML</a>
+                            <a href="#">AI</a>
+                            <a href="#">Big Data</a>
                         </div>
                 </div>
         
