@@ -10,6 +10,11 @@ class HomeController extends Controller
 {
     //
 
+    function index() {
+    $article=Article::all();
+        return view('welcome',compact('article'));
+    }
+
     public  function uploadImages () {
 
         
