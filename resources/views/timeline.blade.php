@@ -126,9 +126,7 @@
   display: table;
   clear: both;
 }
-.myimg {
-  flex: 1;
-}
+
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
