@@ -13,19 +13,30 @@ body{
     
 }
 
+button{
+    background: transparent;
+    padding: 1rem 0.5rem;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 1rem;
+    font-size: 1rem;
+
+}
+
 .x-div{
-    display:flex;
-    justify-content: center;
+   
     color: #23374d;
     min-height: 40rem;
     margin: 2rem 0;
+    padding: 2rem;
     border-radius: 1rem;
 }
 
-/* .x-div h1{
-    font-size: 6rem;
+.x-div h1{
+    font-size: 3rem;
     text-shadow: 4px 4px 4px #aaa;
-} */
+    text-align: center;
+} 
 
 .x-div:nth-child(odd){
     background: white;
@@ -39,25 +50,33 @@ body{
 
 .hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 3rem 5px 0;
     }
+
 .hero h1{
      color: darkblue;
-     font-size: 4rem;
+     font-size: 3rem;
+}
+.hero h3{
+    color: darkblue;
+    font-size: 2rem;
+    
 }
 
 .heroinfo{
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
 }
 .hero p{
     color: blue;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 .heroimg img{
     border-radius: 1rem;
+    align-self: flex-start
 }
 a{
     text-decoration:none;
@@ -75,4 +94,12 @@ ul{
     background-color: #555;
     padding: 0.5rem;
     color: white;
+  }
+
+
+  .cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    width: 40rem;
   }
