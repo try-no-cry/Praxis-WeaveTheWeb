@@ -33,3 +33,27 @@ body{
     background: #D2D2D2;
     margin-bottom: 1rem;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem 5px 0;
+    align-items: center;
+}
+.hero h1{
+     color: darkblue;
+     font-size: 4rem;
+}
+
+.heroinfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero p{
+    color: blue;
+    font-size: 2rem;
+}
+.heroimg img{
+    border-radius: 1rem;
+}
