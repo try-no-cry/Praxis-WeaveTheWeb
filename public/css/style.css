@@ -38,7 +38,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 3rem 5px 0;
-    align-items: center;
+    align-items: baseline;
 }
 .hero h1{
      color: darkblue;
@@ -57,3 +57,20 @@ body{
 .heroimg img{
     border-radius: 1rem;
 }
+a{
+    text-decoration:none;
+    color: white;
+}
+ul{
+    color: white;
+   
+}
+.navlist{
+    display: inline;
+    padding: 4rem;
+}
+.navlist a:hover {
+    background-color: #555;
+    padding: 0.5rem;
+    color: white;
+  }
