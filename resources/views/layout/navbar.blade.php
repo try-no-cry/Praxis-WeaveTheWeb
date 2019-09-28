@@ -19,14 +19,29 @@
 </head>
 <body>
 <nav class="homepagenav">
- <div>
-     <ul class="navcontents">
-        <li class="navlist"> <a href="">Inventions</a></li>
-        <li class="navlist"><a href="#">Page 1-1</a></li>
-        <li class="navlist"><a href="#">Page 1-2</a></li>
-        <li class="navlist"><a href="#">Page 1-3</a></li>
-    </ul>
+
+<div class="logo">
+ <a href="">Inventions</a>
 </div>
+    <div class="navmenu">
+        <div class="navcontent1">
+            <a class="hlink" href="#home">Home</a>
+        </div>
+        <div class="navcontent2">
+            <a class="hlink" href="#news">News</a>
+        </div>
+                <div class="dropdown">
+                        <button class="dropbtn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                </div>
+        
+    </div>
 </nav>
 
 @yield('content')
