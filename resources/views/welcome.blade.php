@@ -13,7 +13,7 @@
         
             <h1> IT UPDATES </h1>
             <p> Find all IT related updates<br> at one location  <h3 >Your Fingertips</h3></p>
-            <button> Have A Look! </button>
+          
     
         </div>
    </div>

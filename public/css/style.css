@@ -10,7 +10,8 @@ body{
 
 .container{
     margin: 3rem;
-    
+    padding: 1rem;
+    /* border: 1px solid rgb(128, 138, 138); */
 }
 
 button{
@@ -66,11 +67,11 @@ button{
     }
 
 .hero h1{
-     color: darkblue;
+     color: #334e99;
      font-size: 3rem;
 }
 .hero h3{
-    color: darkblue;
+    color: #334e99;
     font-size: 2rem;
     letter-spacing: 0.1rem;
     
@@ -80,10 +81,12 @@ button{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 1rem;
+    border-left: 1px solid #5e89ff;
 
 }
 .hero p{
-    color: #006880;
+    color: #3a2c6d;
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
 }
