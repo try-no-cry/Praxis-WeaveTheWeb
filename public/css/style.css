@@ -39,15 +39,25 @@ button{
 } 
 
 .x-div:nth-child(odd){
-    background: white;
+    background: #bdf6f8;
     margin-bottom: 1rem;
 }
 
 .x-div:nth-child(even){
-    background:#EEE;
+    background:#dcf7fc;
     margin-bottom: 1rem;
 }
 
+
+.x-div:nth-child(even) .card{
+    background:#bdf6f8;
+    margin-bottom: 1rem;
+}
+
+.x-div:nth-child(odd) .card{
+    background: #5edfff;
+    margin-bottom: 1rem;
+}
 .hero{
     display: flex;
     justify-content: space-around;
@@ -61,6 +71,7 @@ button{
 .hero h3{
     color: darkblue;
     font-size: 2rem;
+    letter-spacing: 0.1rem;
     
 }
 
@@ -71,8 +82,9 @@ button{
 
 }
 .hero p{
-    color: blue;
-    font-size: 1.3rem;
+    color: #006880;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
 }
 .heroimg img{
     border-radius: 1rem;
@@ -110,10 +122,6 @@ ul{
     
 }
 
-  .card:nth-child(even){
-     
-      background: ghostwhite;
-  }
 
   
 .card{
@@ -123,7 +131,7 @@ ul{
     margin: 3rem;
     border: 1px solid ghostwhite;
     flex-basis: 35%;
-    background: whitesmoke;
+    background: #dcf7fc;
     padding: 1rem;
     border-radius: 1.5rem;
     transition: all .2s ease-in-out; 
@@ -143,3 +151,11 @@ ul{
     transform: scale(1.2); 
     box-shadow: 1rem 1rem 1rem grey;
 }
+
+.card-desc{
+    align-self: flex-end;
+}
+/* #dcf7fc
+#bdf6f8
+#5edfff
+#3e64ff */
