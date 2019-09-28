@@ -15,14 +15,13 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  flex: 1;
 }
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
+  width: 4px;
   background-color: lightblue;
   top: 0;
   bottom: 0;
@@ -30,12 +29,13 @@
   margin-left: -3px;
 }
 
-/* Container around content */
+/* containerer around content */
 .container {
-  padding: 10px 40px;
+  padding: 10px 10px;
   position: relative;
   background-color: inherit;
   width: 50%;
+  min-height: 20rem;
 }
 
 /* The circles on the timeline */
@@ -176,6 +176,7 @@
       <p>In 1982, physicist John Hopfield was able to prove that a form of neural network (now called a "Hopfield net") could learn and process information in a completely new way. Around the same time, Geoffrey Hinton and David Rumelhart popularized a method for training neural networks called "backpropagation"</p>
     </div>
   </div>
+
   <div class="container right">
     <div class="content">
      <h2 style ="color:#FF9F55">1987–1993</h2>
